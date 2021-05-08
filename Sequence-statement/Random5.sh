@@ -12,7 +12,7 @@ echo "Fifth number: "
 read e
 
 sum=$(($a + $b + $c + $d + $e))
-avg=$(echo $sum / 5 | bc -l)
+avg=$(( $sum / 5 ))
 
 
 echo "The sum of these numbers is: " $sum
