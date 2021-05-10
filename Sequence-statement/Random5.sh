@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -x
+
 
 echo "Please enter your first number: "
 read a
