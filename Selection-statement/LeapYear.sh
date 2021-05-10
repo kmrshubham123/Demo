@@ -1,12 +1,21 @@
 #!/bin/bash -x
-echo Enter the four digited year
-read year
-a=`expr $year%4`
-b=`expr $year%400`
-if [$a -eq0]&&[$b -eq0]
-then
-echo "The Given year $year is a leap year"
-else
-echo "The Given year $year is a not leap year"
-fi
 
+echo "Enter a year to check - "
+
+read y
+
+year=$y 
+
+ans=`expr $year % 4`
+
+if [ $ans -eq 0 ]
+
+then    
+
+    echo "Leap Year"
+
+else
+
+    echo "Not a Leap Year"
+
+fi
