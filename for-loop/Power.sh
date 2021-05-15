@@ -1,12 +1,8 @@
 #!/bin/bash -x
 
-function is_power_of_two () {
-    declare -i n=$1
-    (( n > 0 && (n & (n - 1)) == 0 ))
-}
 
-for number; do
-    if is_power_of_two "$number"; then
-        printf "%d\n" "$number"
-    fi
-done
+sPowerOf2 () {
+    local n=$1 i=0
+    for ((; n>1; n/=2, i++)); do :; done
+    (($1 - (2 ** $i) == 0))
+}
