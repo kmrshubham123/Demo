@@ -1,21 +1,23 @@
-#!/bin/bash -x
+ #!/bin/bash
+echo "Write a program that reads 5 Random 2 Digit values , then find their
+sum and the average"
+echo "Solution"
+echo ""
+
+#!/bin/bash
+val_1=$(( RANDOM % 90 + 10 ))
+val_2=$(( RANDOM % 90 + 10 ))
+val_3=$(( RANDOM % 90 + 10 ))
+val_4=$(( RANDOM % 90 + 10 ))
+val_5=$(( RANDOM % 90 + 10 ))
+
+echo "The five random two digit values are: $val_1 $val_2 $val_3 $val_4 $val_5"
+
+sum=$(( val_1 + val_2 + val_3 + val_4 + val_5 ))
+average=$( echo $sum 5 | awk '{printf "%.2f", $1 / $2}')
+
+echo "Sum if the 5 random 2 digit numbers is: $sum"
+echo "Average if the 5 random 2 digit numbers is: $average"
 
 
-echo "Please enter your first number: "
-read a
-echo "Second number: "
-read b
-echo "Third number: "
-read c
-echo "Fourth number: "
-read d
-echo "Fifth number: "
-read e
-
-sum=$(($a + $b + $c + $d + $e))
-avg=$(( $sum / 5 ))
-
-
-echo "The sum of these numbers is: " $sum
-echo "The average of these numbers is: " $avg
 

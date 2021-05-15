@@ -1,10 +1,48 @@
-#!/bin/bash -x
+#!/bin/bash
 
-declare -i n
-in=inches
-ft=feet
+echo "4. Write a program that takes User Inputs and does Unit Conversion of
+different Length units
+1. Feet to Inch 3. Inch to Feet
+2. Feet to Meter 4. Meter to Feet"
+echo "solution"
+echo ""
 
-read number in "as" feet
-if [ ]; then
-    echo "$n $in = $[n/12] $ft"
-fi
+
+echo "1. Feet to Inch"
+echo "2. Feet to Meter"
+echo "3. Inch to Feet"
+echo "4. Meter to feet"
+read -p "Enter the options " n
+
+
+
+case $n in 
+1)
+read -p "Enter the distance in feet " feet
+inch=$(($feet*12))
+echo $inch
+;;
+2)
+read -p "Enter the distance in feet " feet
+echo "In meter"
+echo $feet | awk '{print $feet * 0.3048  }'
+
+;;
+
+3) 
+read -p "Enter the distance in inch " inch
+echo "In feet"
+echo $inch | awk '{print $inch * 0.083 }'
+
+;;
+4)
+ 
+read -p "Enter the distance in meter " meter
+echo "In feet"
+echo $meter | awk '{print $meter * 3.281 }'
+
+;;
+*)
+echo "Invalid Option"
+;;
+esac

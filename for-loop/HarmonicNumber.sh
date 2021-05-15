@@ -1,10 +1,11 @@
-#!/bin/bash -x
+#!/bin/bash
+echo "2. Write a program that takes a command-line argument n and prints the nth harmonic
+number. Harmonic Number is of the form"
 
-n=$1
-fraction=0
-
-for((i=1; i<=$1; i++))
-do
-fraction=`echo $fraction + 1/$1`
-done
-echo $1 Harmonic is $fraction
+#!/usr/bin/bash
+       n=$1
+       echo "harmonic series is:"
+       for (( i=1; i<=n; i++ ))
+        do
+        echo "1/$i"
+       done
