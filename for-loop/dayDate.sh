@@ -6,3 +6,4 @@ y=$3
 
 echo month is $m and day is $d and year is $y
 
+

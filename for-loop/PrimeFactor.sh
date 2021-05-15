@@ -1,3 +1,4 @@
+#!/bin/bash 
 echo "enter an integer:"
 read input
 if [ $input -lt 1 ];then

@@ -1,6 +1,5 @@
-
 #!/bin/bash
-nano "2. Read a Number and Display the week day (Sunday, Monday,…)"
+"2. Read a Number and Display the week day (Sunday, Monday,…)"
 
 echo "Solution"
 echo ""
