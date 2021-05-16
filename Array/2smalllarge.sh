@@ -1,11 +1,5 @@
 #!/bin/bash
 
-echo " 2. Extend the above program to sort the array and then find the 2nd largest
-and the 2nd smallest element."
-
-echo "solution"
-echo ""
-
 for (( i=0; i<10; i++ ))
 do
 n=$((RANDOM%900+99))

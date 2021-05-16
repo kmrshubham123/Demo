@@ -1,12 +1,4 @@
-
-#!/bin/bash
-
-echo " 2. Write a Program to generate a birth month of 50 individuals between the
-year 92 & 93. Find all the individuals having birthdays in the same month.
-Store it to finally print."
-
-echo "Solution"
-
+#!/bin/bash -x
 
 declare -A month;
 a=1;

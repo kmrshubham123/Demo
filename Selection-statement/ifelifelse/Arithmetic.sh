@@ -1,14 +1,4 @@
 #!/bin/bash
-echo "4. Enter 3 Numbers do following arithmetic operation and find the one that
-is maximum and minimum
-1. a + b * c 3. c + a / b
-2. a % b + c 4. a * b + c"
-
-echo "Solution"
-echo ""
-
-
-
 
 read -p "enter first number:" x
 read -p "enter second number:" y
@@ -27,7 +17,7 @@ min=$a
 max=$d
 
 if (( a > max ))
-then    
+then
     max=$a
 fi
 
@@ -54,5 +44,4 @@ then
     max=$d
 fi
 
-echo ""
 echo "The minimum value is $min and the maximum value is $max"

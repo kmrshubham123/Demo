@@ -1,11 +1,4 @@
 #!/bin/bash
-
-echo "Write a program that reads 5 Random 2 Digit values , then find their
-sum and the average"
-echo "Solution"
-echo ""
-
-#!/bin/bash
 val_1=$(( RANDOM % 90 + 10 ))
 val_2=$(( RANDOM % 90 + 10 ))
 val_3=$(( RANDOM % 90 + 10 ))

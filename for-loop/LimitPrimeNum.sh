@@ -1,4 +1,5 @@
-#!/usr/bin/bash
+#!/bin/bash
+
 echo "enter the range"
 read first
 read last

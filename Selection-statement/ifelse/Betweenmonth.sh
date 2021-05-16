@@ -1,9 +1,4 @@
 #!/bin/bash
-echo "2. Write a program that takes day and month from the command line and prints true if
-day of month is between March 20 and June 20, false otherwise."
-
-echo "Solution"
-echo ""
 
 read -p "Enter day number of the month:" day
 read -p "Enter month number:" month
@@ -15,6 +10,6 @@ read -p "Enter month number:" month
     		else
         		echo "true"
     		fi
-	else    
+	else
     		echo "false"
 	fi

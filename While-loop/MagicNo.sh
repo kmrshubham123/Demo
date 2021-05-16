@@ -1,5 +1,4 @@
-
-#!/bin/bash
+#!/bin/bash -x
 
    no=$((RANDOM%100+1))
    guess=-1

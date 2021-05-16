@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "2. Write a function to check if the two numbers are Palindromes"
-echo "solution"
-echo ""
 
 echo "Enter the number"
 read n

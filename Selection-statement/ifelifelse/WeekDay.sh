@@ -1,8 +1,4 @@
 #!/bin/bash
-"2. Read a Number and Display the week day (Sunday, Monday,…)"
-
-echo "Solution"
-echo ""
 
 read -p "Enter a numb betwen 1 to 7:" num
 if(( num == 1 ))

@@ -1,7 +1,5 @@
 #!/bin/bash
-echo "3. Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,…"
-echo "Solution"
-echo ""
+
 
 read -p "Enter a number from of 10^n, Like 1,10,100,1000,10000,100000,1000000,10000000,100000000,100000000:" number
 if(( number == 1 ))

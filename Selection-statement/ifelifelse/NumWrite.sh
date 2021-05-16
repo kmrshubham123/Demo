@@ -1,8 +1,4 @@
 #!/bin/bash
-echo "1. Read a single digit number and write the number in word"
-
-echo "Solution"
-echo ""
 
 read -p "Enter a single digit number (number from 0 to 9):" numberSingleDigit
 if(( numberSingleDigit == 0 ))
